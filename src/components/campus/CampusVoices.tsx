@@ -1,6 +1,6 @@
 // CampusVoices.tsx
-import { PushPin } from "./PushPin";
-import { Reveal } from "./Reveal";
+import { PushPin } from "../push/PushPin";
+import { Reveal } from "../reveal/Reveal";
 
 const PIN_COLORS = ["bg-orange-500", "bg-violet-500", "bg-emerald-500"];
 

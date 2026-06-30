@@ -1,6 +1,6 @@
 // Hero.tsx
 import { ArrowRight, ShieldCheck, MapPin } from "lucide-react";
-import { NoteCard } from "./NoteCard";
+import { NoteCard } from "../note/NoteCard";
 
 const PIN_COLORS = ["bg-orange-500", "bg-violet-500", "bg-emerald-500", "bg-rose-500"];
 

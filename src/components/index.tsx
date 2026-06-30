@@ -1,8 +1,8 @@
 
-export { Hero } from "./Hero";
-export { TrustStrip } from "./TrustStrip";
-export { HowItWorks } from "./HowItWorks";
-export { Modes } from "./Modes";
-export { CampusVoices } from "./CampusVoices";
-export { JoinCTA } from "./JoinCTA";
-export { Footer } from "./Footer";
+export { Hero } from "./hero/Hero";
+export { TrustStrip } from "./trust/TrustStrip";
+export { HowItWorks } from "./howwork/HowItWorks";
+export { Modes } from "./modes/Modes";
+export { CampusVoices } from "./campus/CampusVoices";
+export { JoinCTA } from "./join/JoinCTA";
+export { Footer } from "./footer/Footer";

@@ -1,6 +1,6 @@
 // HowItWorks.tsx
 import { ShieldCheck, Sparkles, MessageCircle } from "lucide-react";
-import { Reveal } from "./Reveal";
+import { Reveal } from "../reveal/Reveal";
 
 const STEPS = [
   { icon: ShieldCheck, title: "Verify your .edu", desc: "One email, one quick check. Only real, currently-enrolled students get in — so every profile you see is genuine.", color: "emerald" },

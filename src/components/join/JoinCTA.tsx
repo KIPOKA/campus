@@ -1,7 +1,7 @@
 // JoinCTA.tsx
 import { useState } from "react";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
-import { Reveal } from "./Reveal";
+import { Reveal } from "../reveal/Reveal";
 
 export function JoinCTA() {
   const [email, setEmail] = useState("");

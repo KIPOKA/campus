@@ -8,7 +8,7 @@ export default function NavbarMain() {
           <div className="w-8 h-8 rounded-full bg-[#1a1a2e] flex items-center justify-center">
             <GraduationCap size={16} className="text-[#FBF6EC]" />
           </div>
-          <span className="text-xl tracking-tight text-[#1a1a2e]">
+          <span className="text-4xl tracking-tight text-[#1a1a2e]">
             camp<span className="text-orange-500">us</span>
           </span>
         </div>

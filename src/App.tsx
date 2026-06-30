@@ -1,11 +1,14 @@
 
 import './App.css'
-import Home from './pages/home/Home'
+import AuthPage from './auth/signin/AuthPage'
+// import Home from './pages/home/Home'
+
+
 function App() {
 
   return (
     <>
-     <Home/>
+     <AuthPage/>
     </>
   )
 }

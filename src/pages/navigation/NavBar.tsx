@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { GraduationCap, Menu, X } from "lucide-react";
+import { GraduationCap, Menu, X, Heart } from "lucide-react";
 
 const LINKS = [
   { href: "#how", label: "How it works" },
@@ -14,12 +14,35 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-[#FBF6EC]/85 border-b border-[#1a1a2e]/10">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-[#1a1a2e] flex items-center justify-center">
-            <GraduationCap size={16} className="text-[#FBF6EC]" />
+        <div className="flex items-center justify-center gap-3 ">
+          <div className="relative w-16 h-16 shrink-0">
+            {/* small floating heart, top-left */}
+            <Heart
+              size={18}
+              className="text-orange-200 absolute top-0 left-2"
+              fill="currentColor"
+            />
+
+            {/* squiggle / motion marks */}
+            <span className="absolute top-1 left-0 text-[#1a1a2e]/40 text-sm rotate-12 select-none">⌒</span>
+            <span className="absolute top-3 -right-3 text-[#1a1a2e]/40 text-sm -rotate-12 select-none">))</span>
+            <span className="absolute bottom-2 -left-3 text-[#1a1a2e]/40 text-xs select-none">⌒</span>
+
+            {/* main circle badge */}
+            <div className="absolute bottom-0 left-1 w-12 h-12 rounded-full bg-[#1a1a2e] flex items-center justify-center">
+              <GraduationCap size={22} className="text-[#FBF6EC]" />
+            </div>
+
+            {/* big heart overlapping top-right of circle */}
+            <Heart
+              size={26}
+              className="text-orange-500 absolute top-2 right-0"
+              fill="currentColor"
+            />
           </div>
+
           <span
-            className="text-xl tracking-tight text-[#1a1a2e]"
+            className="text-3xl tracking-tight text-[#1a1a2e]"
             style={{ fontFamily: "Fraunces, serif", fontWeight: 600 }}
           >
             camp<span className="text-orange-500">Us</span>

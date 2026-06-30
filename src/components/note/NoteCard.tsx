@@ -1,5 +1,5 @@
 // NoteCard.tsx
-import { PushPin } from "./PushPin";
+import { PushPin } from "../push/PushPin";
 
 export function NoteCard({
   rotate,

@@ -1,6 +1,6 @@
 // Modes.tsx
 import { Heart, Users, BookOpen } from "lucide-react";
-import { Reveal } from "./Reveal";
+import { Reveal } from "../reveal/Reveal";
 
 const MODES = [
   { icon: Heart, title: "Dating", desc: "Real chemistry with someone who actually goes to your school.", tag: "Most popular", ring: "ring-orange-400/40", iconBg: "bg-orange-500/20 text-orange-400" },
