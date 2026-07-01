@@ -1,16 +1,13 @@
-
-import './App.css'
-import AuthPage from './auth/signin/AuthPage'
-// import Home from './pages/home/Home'
-
+import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-
   return (
-    <>
-     <AuthPage/>
-    </>
-  )
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

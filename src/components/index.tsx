@@ -1,4 +1,3 @@
-
 export { Hero } from "./hero/Hero";
 export { TrustStrip } from "./trust/TrustStrip";
 export { HowItWorks } from "./howwork/HowItWorks";

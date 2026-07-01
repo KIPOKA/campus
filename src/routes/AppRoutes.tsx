@@ -1,12 +1,16 @@
-// src/navigation/RootNavigator.tsx
+import { Routes, Route } from "react-router-dom";
 
+import AuthPage from "../auth/signin/AuthPage";
+import Home from "../pages/home/Home";
 
-import NavBar from '../pages/navigation/NavBar';
- 
-
-export default function RootNavigator() { 
-
+export default function AppRoutes() {
   return (
-    <NavBar/>
+    <Routes>
+      {/* Home page */}
+      <Route path="/" element={<Home />} />
+
+      {/* Sign in page */}
+      <Route path="/signin" element={<AuthPage />} />
+    </Routes>
   );
 }

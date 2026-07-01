@@ -1,5 +1,11 @@
 import {
-  Hero, TrustStrip, HowItWorks, Modes, CampusVoices, JoinCTA, Footer 
+  Hero,
+  TrustStrip,
+  HowItWorks,
+  Modes,
+  CampusVoices,
+  JoinCTA,
+  Footer,
 } from "../../components";
 import Navbar from "../navigation/NavBar";
 
@@ -10,17 +16,18 @@ export default function CampusLandingPage() {
       style={{
         fontFamily: "Inter, sans-serif",
         backgroundColor: "#f4fbec",
-        backgroundImage: "radial-gradient(circle at 1px 1px, rgba(26,26,46,0.06) 1px, transparent 0)",
+        backgroundImage:
+          "radial-gradient(circle at 1px 1px, rgba(26,26,46,0.06) 1px, transparent 0)",
         backgroundSize: "22px 22px",
       }}
     >
-      <Navbar/>
+      <Navbar />
       <Hero />
       <TrustStrip />
       <HowItWorks />
       <Modes />
       <CampusVoices />
-      <JoinCTA />
+      {/* <JoinCTA /> */}
       <Footer />
     </div>
   );
