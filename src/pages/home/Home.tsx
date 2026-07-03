@@ -4,7 +4,6 @@ import {
   HowItWorks,
   Modes,
   CampusVoices,
-  JoinCTA,
   Footer,
 } from "../../components";
 import Navbar from "../navigation/NavBar";
@@ -27,7 +26,7 @@ export default function CampusLandingPage() {
       <HowItWorks />
       <Modes />
       <CampusVoices />
-      <JoinCTA />
+      {/* <JoinCTA /> */}
       <Footer />
     </div>
   );
