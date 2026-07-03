@@ -27,7 +27,7 @@ export default function CampusLandingPage() {
       <HowItWorks />
       <Modes />
       <CampusVoices />
-      {/* <JoinCTA /> */}
+      <JoinCTA />
       <Footer />
     </div>
   );
